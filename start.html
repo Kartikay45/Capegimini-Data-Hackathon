@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="//fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style-starter.css">
+  <link rel="icon" type="image/x-icon" href="/images/Untitled design.png"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>GreenAg</title>
+</head>
+
+<body style="background-color:#F9FBE7;">
+
+
+
+  <div>
+    <img src=".." alt="">
+    <div id="multi-step-form-container">
+      <!-- Form Steps / Progress Bar -->
+      <ul class="form-stepper form-stepper-horizontal text-center mx-auto pl-0">
+        <!-- Step 1 -->
+        <li class="form-stepper-active text-center form-stepper-list" step="1">
+          <a class="mx-2">
+            <span class="form-stepper-circle">
+              <span>1</span>
+            </span>
+            <div class="label">About Us</div>
+          </a>
+        </li>
+        <!-- Step 2 -->
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="2">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>2</span>
+            </span>
+            <div class="label text-muted">Select Location</div>
+          </a>
+        </li>
+        <!-- Step 3 -->
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="3">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>3</span>
+            </span>
+            <div class="label text-muted">Select Region</div>
+          </a>
+        </li>
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="4">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>4</span>
+            </span>
+            <div class="label text-muted">Enter farm data</div>
+          </a>
+        </li>
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="5">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>5</span>
+            </span>
+            <div class="label text-muted">Select Crop</div>
+          </a>
+        </li>
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="6">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>6</span>
+            </span>
+            <div class="label text-muted">Select Fertilizers</div>
+          </a>
+        </li>
+        <li class="form-stepper-unfinished text-center form-stepper-list" step="7">
+          <a class="mx-2">
+            <span class="form-stepper-circle text-muted">
+              <span>O/P</span>
+            </span>
+            <div class="label text-muted">YOUR EMMISSION</div>
+          </a>
+        </li>
+      </ul>
+      <!-- Step Wise Form Content -->
+      <form id="userAccountSetupForm" name="userAccountSetupForm" enctype="multipart/form-data" method="POST">
+        <!-- Step 1 Content -->
+        <section id="step-1" class="form-step">
+          <h2 class="font-normal">About Us</h2>
+          <!-- Step 1 input fields -->
+          <div class="mt-3">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+          </div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step btn btn-outline-primary" type="button" step_number="2">Start using Tool</button>
+          </div>
+        </section>
+        <!-- Step 2 Content, default hidden on page load. -->
+        <section id="step-2" class="form-step d-none">
+          <h2 class="font-normal">Select Location</h2>
+          <!-- Step 2 input fields -->
+          <div class="mt-3">
+            <h6>Please select the location of your farm</h6>
+            <div>
+              <label for="lat">Latitude:</label>
+              <input type="number" id="lat" name="lat">
+            </div>
+            <div>
+              <label for="longy">Longitude:</label>
+              <input type="number" id="longy" name="longy">
+            </div>
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950840.425674824!2d-104.4374920467198!3d31.71684964456462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas%2C%20USA!5e0!3m2!1sen!2sin!4v1685964608784!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div  class="satelite"><iframe src="https://www.google.com/maps/embed?pb=!4v1685965019798!6m8!1m7!1sJlisa3gUt03qVjgusFj76w!2m2!1d31.47325825865038!2d-99.160226252092!3f165.85064983301376!4f-0.9330848807636016!5f0.7820865974627469" width="600"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="1">Prev</button>
+            <button class="button btn-navigate-form-step" type="button" step_number="3">Next</button>
+          </div>
+        </section>
+        <!-- Step 3 Content, default hidden on page load. -->
+        <section id="step-3" class="form-step d-none">
+          <h2 class="font-normal">Select Region</h2>
+          <!-- Step 3 input fields -->
+          <div class="mt-3">
+            <div>
+              <h6>Which region does your farm belong to?</h6>
+              <label for="lang">Annual rainfall(in cms)</label>
+              <select name="rainfall" id="rain">
+                <option value="25-">Under 25</option>
+                <option value="25-50">25 to 50</option>
+                <option value="50-100">50 to 100</option>
+                <option value="100-150">100 to 150</option>
+                <option value="150-200">150 to 200</option>
+                <option value="200+">Over 200</option>
+              </select>
+              <input type="submit" value="Submit" />
+            </div>
+            <div>
+              <img class="region" src="/images/hh.jpg" alt="">
+            </div>
+          </div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
+            <button class="button btn-navigate-form-step" type="button" step_number="4">Next</button>
+          </div>
+        </section>
+        <section id="step-4" class="form-step d-none">
+          <h2 class="font-normal">Please enter the Farm details for last year</h2>
+          <!-- Step 3 input fields -->
+          <div>
+            <h6>How many crops did you plant?</h6>
+            <select name="crop" id="crop">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="2+">2+</option>
+            </select>
+          </div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="3">Prev</button>
+            <button class="button btn-navigate-form-step" type="button" step_number="5">Next</button>
+          </div>
+        </section>
+        <section id="step-5" class="form-step d-none">
+          <h2 class="font-normal">Personal Details</h2>
+          <!-- Step 3 input fields -->
+          <div class="mt-3">
+            <div>
+              <h6>SELECT SELECT THE CROP</h6>
+              <select name="crup" id="crup">
+                <option value="cotton">Cotton</option>
+                <option value="rice">Rice</option>
+                <option value="wheat">Wheat</option>
+              </select>
+            </div>
+            <div>
+              <label for="area">Area Under the Crop:</label>
+
+              <input type="text" id="area" name="area" required minlength="1" maxlength="4" size="10">
+            </div>
+            <div>
+              <label for="area">Enter the Lime usage:</label>
+
+              <input type="text" id="lime" name="lime" required minlength="1" maxlength="4" size="10">
+            </div>
+            <div>
+              <h6>Any tillage activity?</h6>
+              <select name="till" id="till">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+              </select>
+            </div>
+            <div>
+              <h6>Any Machinery Used?</h6>
+              <select name="mach" id="mach">
+                <option value="yes">YES</option>
+                <option value="no">NO</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="4">Prev</button>
+            <button class="button btn-navigate-form-step" type="button" step_number="6">Next</button>
+          </div>
+        </section>
+        <section id="step-6" class="form-step d-none">
+          <h2 class="font-normal">Fertilizer usage</h2>
+          <!-- Step 3 input fields -->
+          <div class="mt-3">
+            <h6>Please enter the fertilizer usage this particular crop</h6>
+            <div>
+              <label for="quantity">UREA (between 1 and 50):</label>
+              <input type="number" id="quantity" name="quantity" min="1" max="50">
+            </div>
+
+
+
+
+
+
+          </div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="5">Prev</button>
+            <button class="button btn-navigate-form-step" type="button" step_number="7" onclick="getInputValue()">Next</button>
+          </div>
+        </section>
+        <section id="step-7" class="form-step d-none">
+          <h2 class="font-normal">Output</h2>
+          <!-- Step 3 input fields -->
+          <div>
+
+            <table border="3" id="fish">
+              <thead>
+<!-- taking the input heading -->
+                <tr>
+                  <th>LATITUDE&nbsp;&nbsp;</th>
+                  <th>LONGITUDE&nbsp;&nbsp;</th>
+                  <th>RAINFALL&nbsp;&nbsp;</th>
+                  <th>CROPS&nbsp;&nbsp;</th>
+                  <th>CROP&nbsp;&nbsp;</th>
+                  <th>AREA&nbsp;&nbsp;</th>
+                  <th>LIME_USAGE&nbsp;&nbsp;</th>
+                  <th>TILLAGE&nbsp;&nbsp;</th>
+                  <th>MACHINERY&nbsp;&nbsp;</th>
+                  <th>UREA&nbsp;&nbsp;</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+<!-- input id where to displayed -->
+                  <td id="input1"></td>
+                  <td id="input2"></td>
+                  <td id="input3"></td>
+                  <td id="input4"></td>
+                  <td id="input5"></td>
+                  <td id="input6"></td>
+                  <td id="input7"></td>
+                  <td id="input8"></td>
+                  <td id="input9"></td>
+                  <td id="input10"></td>
+
+                </tr>
+              </tbody>
+            </table>
+
+
+          </div>
+          <div class="mt-3">
+            <button class="button btn-navigate-form-step" type="button" step_number="6">Prev</button>
+            <button class="button submit-btn" type="button" onclick="co2_emi_from_cotton_lime(); co2_emi_from_cotton_urea(); n20_emi_from_cotton()">Calculate</button>
+          </div>
+
+
+
+<div>
+  <h4>Results</h4>
+Emissions of Co2 from Cotton Lime:-
+<!-- co2 emission from cotton -->
+<div id="ccl">
+
+</div><br>
+Emission of Co2 from Urea:-
+<!-- co2 emission from urea for cotton -->
+<div id="ccfu">
+
+</div><br>
+N2o Emission from Urea:-
+<!-- n20 emission from urea for cotton -->
+<div id="ncfu">
+
+
+
+</div>
+
+          </div>
+        </section>
+      </form>
+    </div>
+  </div>
+<!-- getting input to output from inputs -->
+<script>
+  function getInputValue(){
+
+  let latitude = document.getElementById("lat").value;
+  let longitude = document.getElementById("longy").value;
+  let rainfall = document.getElementById("rain").value;
+  let cropps = document.getElementById("crop").value;
+  let crupps = document.getElementById("crup").value;
+  let areas = document.getElementById("area").value;
+  let limeuse = document.getElementById("lime").value;
+  let tillage = document.getElementById("till").value;
+  let machine = document.getElementById("mach").value;
+  let fertili = document.getElementById("quantity").value;
+
+  document.getElementById("input1").innerHTML = latitude;
+  document.getElementById("input2").innerHTML = longitude;
+  document.getElementById("input3").innerHTML = rainfall;
+  document.getElementById("input4").innerHTML = cropps;
+  document.getElementById("input5").innerHTML = crupps;
+  document.getElementById("input6").innerHTML = areas;
+  document.getElementById("input7").innerHTML = limeuse;
+  document.getElementById("input8").innerHTML = tillage;
+  document.getElementById("input9").innerHTML = machine;
+  document.getElementById("input10").innerHTML = fertili;
+
+  }
+
+  </script>
+
+  <script src="/index.js"></script>
+</body>
+
+</html>
